@@ -1,5 +1,5 @@
 DATA CLEANING REPORT
-Generated: 2025-10-24T11:51:44
+Generated: 2025-10-24T13:47:33
 
 Total rows before cleaning: 214
 Rows removed (missing in gdp_growth, gdp_pc_initial): 112
