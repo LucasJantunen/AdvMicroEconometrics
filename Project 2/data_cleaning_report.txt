@@ -1,124 +1,124 @@
 DATA CLEANING REPORT
-Generated: 2025-10-26T11:05:30
+Generated: 2025-10-31T10:17:00
 
 Total rows before cleaning: 214
-Rows removed (missing in gdp_growth, gdp_pc_initial): 112
+Rows removed (missing in gdp_growth, lgdp_initial): 112
 Rows kept (complete in those columns): 102
 
 === REMOVED COUNTRIES ===
-code continent                 missing_in
- AGO    Africa gdp_growth, gdp_pc_initial
- COM    Africa gdp_growth, gdp_pc_initial
- CPV    Africa gdp_growth, gdp_pc_initial
- DJI    Africa gdp_growth, gdp_pc_initial
- ERI    Africa gdp_growth, gdp_pc_initial
- ETH    Africa gdp_growth, gdp_pc_initial
- GIN    Africa gdp_growth, gdp_pc_initial
- GNQ    Africa gdp_growth, gdp_pc_initial
- LBR    Africa gdp_growth, gdp_pc_initial
- LBY    Africa gdp_growth, gdp_pc_initial
- MOZ    Africa gdp_growth, gdp_pc_initial
- MUS    Africa gdp_growth, gdp_pc_initial
- MYT    Africa gdp_growth, gdp_pc_initial
- NAM    Africa gdp_growth, gdp_pc_initial
- SOM    Africa gdp_growth, gdp_pc_initial
- STP    Africa gdp_growth, gdp_pc_initial
- TZA    Africa gdp_growth, gdp_pc_initial
- UGA    Africa gdp_growth, gdp_pc_initial
- ZAR    Africa gdp_growth, gdp_pc_initial
- ABW  Americas gdp_growth, gdp_pc_initial
- ANT  Americas gdp_growth, gdp_pc_initial
- ATG  Americas gdp_growth, gdp_pc_initial
- BMU  Americas                 gdp_growth
- BRB  Americas gdp_growth, gdp_pc_initial
- CAN  Americas gdp_growth, gdp_pc_initial
- CUB  Americas                 gdp_growth
- CYM  Americas gdp_growth, gdp_pc_initial
- DMA  Americas gdp_growth, gdp_pc_initial
- GRD  Americas gdp_growth, gdp_pc_initial
- GRL  Americas                 gdp_growth
- KNA  Americas gdp_growth, gdp_pc_initial
- LCA  Americas gdp_growth, gdp_pc_initial
- VEN  Americas                 gdp_growth
- VIR  Americas gdp_growth, gdp_pc_initial
- AFG      Asia gdp_growth, gdp_pc_initial
- ARE      Asia gdp_growth, gdp_pc_initial
- ARM      Asia gdp_growth, gdp_pc_initial
- AZE      Asia gdp_growth, gdp_pc_initial
- BHR      Asia gdp_growth, gdp_pc_initial
- BRN      Asia gdp_growth, gdp_pc_initial
- BTN      Asia gdp_growth, gdp_pc_initial
- ISR      Asia gdp_growth, gdp_pc_initial
- JOR      Asia gdp_growth, gdp_pc_initial
- JPN      Asia                 gdp_growth
- KAZ      Asia gdp_growth, gdp_pc_initial
- KGZ      Asia gdp_growth, gdp_pc_initial
- KHM      Asia gdp_growth, gdp_pc_initial
- KWT      Asia gdp_growth, gdp_pc_initial
- LAO      Asia gdp_growth, gdp_pc_initial
- LBN      Asia gdp_growth, gdp_pc_initial
- MAC      Asia gdp_growth, gdp_pc_initial
- MDV      Asia gdp_growth, gdp_pc_initial
- MNG      Asia gdp_growth, gdp_pc_initial
- OMN      Asia                 gdp_growth
- PRK      Asia gdp_growth, gdp_pc_initial
- QAT      Asia gdp_growth, gdp_pc_initial
- SYR      Asia gdp_growth, gdp_pc_initial
- TJK      Asia gdp_growth, gdp_pc_initial
- TKM      Asia gdp_growth, gdp_pc_initial
- TMP      Asia gdp_growth, gdp_pc_initial
- UZB      Asia gdp_growth, gdp_pc_initial
- VNM      Asia gdp_growth, gdp_pc_initial
- WBG      Asia gdp_growth, gdp_pc_initial
- YEM      Asia gdp_growth, gdp_pc_initial
- ADO    Europe gdp_growth, gdp_pc_initial
- ALB    Europe gdp_growth, gdp_pc_initial
- BGR    Europe gdp_growth, gdp_pc_initial
- BIH    Europe gdp_growth, gdp_pc_initial
- BLR    Europe gdp_growth, gdp_pc_initial
- CHE    Europe gdp_growth, gdp_pc_initial
- CHI    Europe gdp_growth, gdp_pc_initial
- CYP    Europe gdp_growth, gdp_pc_initial
- CZE    Europe gdp_growth, gdp_pc_initial
- EST    Europe gdp_growth, gdp_pc_initial
- FRO    Europe gdp_growth, gdp_pc_initial
- HRV    Europe gdp_growth, gdp_pc_initial
- HUN    Europe gdp_growth, gdp_pc_initial
- IMY    Europe gdp_growth, gdp_pc_initial
- ISL    Europe gdp_growth, gdp_pc_initial
- LIE    Europe gdp_growth, gdp_pc_initial
- LTU    Europe gdp_growth, gdp_pc_initial
- LVA    Europe gdp_growth, gdp_pc_initial
- MCO    Europe                 gdp_growth
- MDA    Europe gdp_growth, gdp_pc_initial
- MKD    Europe gdp_growth, gdp_pc_initial
- POL    Europe gdp_growth, gdp_pc_initial
- ROM    Europe gdp_growth, gdp_pc_initial
- RUS    Europe gdp_growth, gdp_pc_initial
- SMR    Europe gdp_growth, gdp_pc_initial
- SVK    Europe gdp_growth, gdp_pc_initial
- SVN    Europe gdp_growth, gdp_pc_initial
- UKR    Europe gdp_growth, gdp_pc_initial
- YUG    Europe gdp_growth, gdp_pc_initial
- ASM   Oceania gdp_growth, gdp_pc_initial
- FSM   Oceania gdp_growth, gdp_pc_initial
- GUM   Oceania gdp_growth, gdp_pc_initial
- MHL   Oceania gdp_growth, gdp_pc_initial
- MNP   Oceania gdp_growth, gdp_pc_initial
- NCL   Oceania gdp_growth, gdp_pc_initial
- NZL   Oceania gdp_growth, gdp_pc_initial
- PLW   Oceania gdp_growth, gdp_pc_initial
- PYF   Oceania gdp_growth, gdp_pc_initial
- SLB   Oceania gdp_growth, gdp_pc_initial
- TON   Oceania gdp_growth, gdp_pc_initial
- VUT   Oceania gdp_growth, gdp_pc_initial
- WSM   Oceania gdp_growth, gdp_pc_initial
- NAU   Unknown gdp_growth, gdp_pc_initial
- SER   Unknown gdp_growth, gdp_pc_initial
- SIN   Unknown gdp_growth, gdp_pc_initial
- TAW   Unknown gdp_growth, gdp_pc_initial
- TWN   Unknown gdp_growth, gdp_pc_initial
- UAE   Unknown gdp_growth, gdp_pc_initial
+code continent               missing_in
+ AGO    Africa gdp_growth, lgdp_initial
+ COM    Africa gdp_growth, lgdp_initial
+ CPV    Africa gdp_growth, lgdp_initial
+ DJI    Africa gdp_growth, lgdp_initial
+ ERI    Africa gdp_growth, lgdp_initial
+ ETH    Africa gdp_growth, lgdp_initial
+ GIN    Africa gdp_growth, lgdp_initial
+ GNQ    Africa gdp_growth, lgdp_initial
+ LBR    Africa gdp_growth, lgdp_initial
+ LBY    Africa gdp_growth, lgdp_initial
+ MOZ    Africa gdp_growth, lgdp_initial
+ MUS    Africa gdp_growth, lgdp_initial
+ MYT    Africa gdp_growth, lgdp_initial
+ NAM    Africa gdp_growth, lgdp_initial
+ SOM    Africa gdp_growth, lgdp_initial
+ STP    Africa gdp_growth, lgdp_initial
+ TZA    Africa gdp_growth, lgdp_initial
+ UGA    Africa gdp_growth, lgdp_initial
+ ZAR    Africa gdp_growth, lgdp_initial
+ ABW  Americas gdp_growth, lgdp_initial
+ ANT  Americas gdp_growth, lgdp_initial
+ ATG  Americas gdp_growth, lgdp_initial
+ BMU  Americas               gdp_growth
+ BRB  Americas gdp_growth, lgdp_initial
+ CAN  Americas gdp_growth, lgdp_initial
+ CUB  Americas               gdp_growth
+ CYM  Americas gdp_growth, lgdp_initial
+ DMA  Americas gdp_growth, lgdp_initial
+ GRD  Americas gdp_growth, lgdp_initial
+ GRL  Americas               gdp_growth
+ KNA  Americas gdp_growth, lgdp_initial
+ LCA  Americas gdp_growth, lgdp_initial
+ VEN  Americas               gdp_growth
+ VIR  Americas gdp_growth, lgdp_initial
+ AFG      Asia gdp_growth, lgdp_initial
+ ARE      Asia gdp_growth, lgdp_initial
+ ARM      Asia gdp_growth, lgdp_initial
+ AZE      Asia gdp_growth, lgdp_initial
+ BHR      Asia gdp_growth, lgdp_initial
+ BRN      Asia gdp_growth, lgdp_initial
+ BTN      Asia gdp_growth, lgdp_initial
+ ISR      Asia gdp_growth, lgdp_initial
+ JOR      Asia gdp_growth, lgdp_initial
+ JPN      Asia               gdp_growth
+ KAZ      Asia gdp_growth, lgdp_initial
+ KGZ      Asia gdp_growth, lgdp_initial
+ KHM      Asia gdp_growth, lgdp_initial
+ KWT      Asia gdp_growth, lgdp_initial
+ LAO      Asia gdp_growth, lgdp_initial
+ LBN      Asia gdp_growth, lgdp_initial
+ MAC      Asia gdp_growth, lgdp_initial
+ MDV      Asia gdp_growth, lgdp_initial
+ MNG      Asia gdp_growth, lgdp_initial
+ OMN      Asia               gdp_growth
+ PRK      Asia gdp_growth, lgdp_initial
+ QAT      Asia gdp_growth, lgdp_initial
+ SYR      Asia gdp_growth, lgdp_initial
+ TJK      Asia gdp_growth, lgdp_initial
+ TKM      Asia gdp_growth, lgdp_initial
+ TMP      Asia gdp_growth, lgdp_initial
+ UZB      Asia gdp_growth, lgdp_initial
+ VNM      Asia gdp_growth, lgdp_initial
+ WBG      Asia gdp_growth, lgdp_initial
+ YEM      Asia gdp_growth, lgdp_initial
+ ADO    Europe gdp_growth, lgdp_initial
+ ALB    Europe gdp_growth, lgdp_initial
+ BGR    Europe gdp_growth, lgdp_initial
+ BIH    Europe gdp_growth, lgdp_initial
+ BLR    Europe gdp_growth, lgdp_initial
+ CHE    Europe gdp_growth, lgdp_initial
+ CHI    Europe gdp_growth, lgdp_initial
+ CYP    Europe gdp_growth, lgdp_initial
+ CZE    Europe gdp_growth, lgdp_initial
+ EST    Europe gdp_growth, lgdp_initial
+ FRO    Europe gdp_growth, lgdp_initial
+ HRV    Europe gdp_growth, lgdp_initial
+ HUN    Europe gdp_growth, lgdp_initial
+ IMY    Europe gdp_growth, lgdp_initial
+ ISL    Europe gdp_growth, lgdp_initial
+ LIE    Europe gdp_growth, lgdp_initial
+ LTU    Europe gdp_growth, lgdp_initial
+ LVA    Europe gdp_growth, lgdp_initial
+ MCO    Europe               gdp_growth
+ MDA    Europe gdp_growth, lgdp_initial
+ MKD    Europe gdp_growth, lgdp_initial
+ POL    Europe gdp_growth, lgdp_initial
+ ROM    Europe gdp_growth, lgdp_initial
+ RUS    Europe gdp_growth, lgdp_initial
+ SMR    Europe gdp_growth, lgdp_initial
+ SVK    Europe gdp_growth, lgdp_initial
+ SVN    Europe gdp_growth, lgdp_initial
+ UKR    Europe gdp_growth, lgdp_initial
+ YUG    Europe gdp_growth, lgdp_initial
+ ASM   Oceania gdp_growth, lgdp_initial
+ FSM   Oceania gdp_growth, lgdp_initial
+ GUM   Oceania gdp_growth, lgdp_initial
+ MHL   Oceania gdp_growth, lgdp_initial
+ MNP   Oceania gdp_growth, lgdp_initial
+ NCL   Oceania gdp_growth, lgdp_initial
+ NZL   Oceania gdp_growth, lgdp_initial
+ PLW   Oceania gdp_growth, lgdp_initial
+ PYF   Oceania gdp_growth, lgdp_initial
+ SLB   Oceania gdp_growth, lgdp_initial
+ TON   Oceania gdp_growth, lgdp_initial
+ VUT   Oceania gdp_growth, lgdp_initial
+ WSM   Oceania gdp_growth, lgdp_initial
+ NAU   Unknown gdp_growth, lgdp_initial
+ SER   Unknown gdp_growth, lgdp_initial
+ SIN   Unknown gdp_growth, lgdp_initial
+ TAW   Unknown gdp_growth, lgdp_initial
+ TWN   Unknown gdp_growth, lgdp_initial
+ UAE   Unknown gdp_growth, lgdp_initial
 
 === KEPT COUNTRIES ===
 code continent
@@ -236,7 +236,7 @@ Oceania         13     4
 Unknown          6     0
 
 === COMPLETENESS FOR KEPT COUNTRIES (OTHER VARIABLES) ===
-(Variables excluded from this table: africa, americas, asia, code, europe, gdp_growth, gdp_pc_initial, oceania)
+(Variables excluded from this table: africa, americas, asia, code, europe, gdp_growth, lgdp_initial, oceania)
                                 non_missing  missing  complete_%
 abslat                                  101        1        99.0
 area                                    102        0       100.0
@@ -261,6 +261,7 @@ elevstd                                  92       10        90.2
 excolony                                 55       47        53.9
 gdp_initial                             102        0       100.0
 gdp_now                                 102        0       100.0
+gdp_pc_initial                          102        0       100.0
 gdp_pc_now                              102        0       100.0
 ginv                                     86       16        84.3
 goldm                                    97        5        95.1
@@ -273,7 +274,6 @@ landlock                                 98        4        96.1
 leb95                                    50       52        49.0
 legor_fr                                102        0       100.0
 legor_uk                                102        0       100.0
-lgdp_initial                            102        0       100.0
 lh_bl                                    88       14        86.3
 ln_yst                                   96        6        94.1
 ln_yst_aa                                95        7        93.1
